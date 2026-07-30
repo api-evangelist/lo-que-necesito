@@ -1,7 +1,22 @@
 aid: lo-que-necesito
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lo-que-necesito.png
 name: Lo Que Necesito
-description: Lo Que Necesito is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Lo Que Necesito (loquenecesito.co) is a Colombian real estate technology platform that lets
+  people request and purchase housing online, accompanying customers through the buying process. Surfaced
+  as a portfolio company of 500 Global, it was added to the API Evangelist network as a stub for enrichment.
+  A July 2026 enrichment pass found a live consumer website but no public API, developer portal, or
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/lo-que-necesito/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Housing
+- Colombia
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +41,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lo-que-necesito-domain-security.yml
 - type: Website
   url: https://loquenecesito.co
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

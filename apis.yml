@@ -40,7 +40,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Housing
 - Colombia
@@ -52,6 +52,7 @@ tags_raw:
 - Housing
 - Colombia
 - Latin America
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
